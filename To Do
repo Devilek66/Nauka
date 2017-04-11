@@ -1,0 +1,18 @@
+	Na start:
+		1) Podstawy kodowania ruby (listy, "zmienne", obiekty, dzialania na tekscie itd...)
+		2) Jak dziala MVC - teoretycznie.
+		3) Modele:
+			a) Validacje
+			b) Generowanie
+			c) Asocjacje
+		4) Controllery
+		5) Widoki
+		6) Testy
+		7) Gemy:
+			a) Devise
+			b) Haml
+			c) bootstrap-twitter
+			d) admin_panel?
+		8)cos dalej
+
+*Na szybko wymyślałem.
