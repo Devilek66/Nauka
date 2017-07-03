@@ -43,3 +43,7 @@
 		...
 		end
 		Metoda ta wywoływana jest poprzez Klasa.new
+	e) metody attr
+		attr_accessor :height
+		attr_reader :name,:surname
+		attr_writer :example
