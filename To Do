@@ -16,3 +16,30 @@
 		8)cos dalej
 
 *Na szybko wymyślałem.
+
+
+1)
+	a) Zmienne:
+		- Lokalne 	np. first_name
+		- Instancji 	np. @first_name
+		- Klas 		np. @@first_name
+		- Globalne 	np. $FIRST_NAME
+		- Stałe		np. FIRST_NAME || FirstName
+	b) Argumenty metoda:
+		def metoda(a,b,c=1,*d,e,f)
+		...
+		end
+		-a,b,e,f 	- Argumenty wymagane
+		-c 		- Argument opcjonalny
+		-*d 		- Tablica argumentów
+		argument opcjonalny musi byc zawsze przed tablicą argumentów. Argumenty wymagane powinny być przed albo po tablicy a. i opcjonalnymi a.
+	c) metody przypominające przypisanie
+		def metoda=(a)
+		...
+		end
+		Taką metodę można wywołać np: metoda=20
+	d) metoda inicjalizująca:
+		def initialize(a,b,...)
+		...
+		end
+		Metoda ta wywoływana jest poprzez Klasa.new
